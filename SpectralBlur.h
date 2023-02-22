@@ -5,8 +5,6 @@
 #include "../common/BiduleSDK.h"
 #include "OnePole.h"
 
-#include "MyTestClass.hpp"
-
 namespace acme {
     using namespace plogue::biduleSDK;
     class SpectralBlur: public BidulePlugin {
@@ -30,7 +28,6 @@ namespace acme {
 
 			virtual void process(Sample** sampleIn, Sample** sampleOut, MIDIEvents* midiIn, MIDIEvents* midiOut, Frequency*** freqIn, Frequency*** freqOut, Magnitude*** magIn, Magnitude*** magOut, SyncInfo* syncIn, SyncInfo* syncOut);
 		protected:
-
             OnePole _filterFreq;
             OnePole _filterMag;
 			double _blurAmtFreq;

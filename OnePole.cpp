@@ -24,6 +24,7 @@ double OnePole::process(float in) {
     return z1 = in * a0 + z1 * b1;
 }
 
+// maybe frequency needs its own filter???
 double OnePole::processF(float in) {
     return z1 = in * a0 + z1 * b1;
 }

@@ -15,8 +15,6 @@
 		9626A79D095321AC006C620D /* SDKExampleMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 969BD85804FFA38400A80165 /* SDKExampleMain.cpp */; };
 		9626A79F095321AC006C620D /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */; };
 		B20EA70F28133216007A3D88 /* OnePole.h in Sources */ = {isa = PBXBuildFile; fileRef = B20EA70E28133216007A3D88 /* OnePole.h */; };
-		B28DAC9729A2D2A4000B5D17 /* MyTestClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B28DAC9529A2D2A4000B5D17 /* MyTestClass.cpp */; };
-		B28DAC9829A2D2A4000B5D17 /* MyTestClass.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B28DAC9629A2D2A4000B5D17 /* MyTestClass.hpp */; };
 		B28DAC9C29A2DAC9000B5D17 /* OnePole.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B28DAC9B29A2DAC9000B5D17 /* OnePole.cpp */; };
 /* End PBXBuildFile section */
 
@@ -32,8 +30,6 @@
 		969BD85804FFA38400A80165 /* SDKExampleMain.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = SDKExampleMain.cpp; sourceTree = SOURCE_ROOT; };
 		B20EA70E28133216007A3D88 /* OnePole.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; path = OnePole.h; sourceTree = "<group>"; };
 		B27291192812B9F10017D375 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B28DAC9529A2D2A4000B5D17 /* MyTestClass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MyTestClass.cpp; sourceTree = "<group>"; };
-		B28DAC9629A2D2A4000B5D17 /* MyTestClass.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MyTestClass.hpp; sourceTree = "<group>"; };
 		B28DAC9B29A2DAC9000B5D17 /* OnePole.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OnePole.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,8 +82,6 @@
 				969BD85804FFA38400A80165 /* SDKExampleMain.cpp */,
 				B20EA70E28133216007A3D88 /* OnePole.h */,
 				B28DAC9B29A2DAC9000B5D17 /* OnePole.cpp */,
-				B28DAC9529A2D2A4000B5D17 /* MyTestClass.cpp */,
-				B28DAC9629A2D2A4000B5D17 /* MyTestClass.hpp */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -118,7 +112,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9626A795095321AC006C620D /* BiduleSDK.h in Headers */,
-				B28DAC9829A2D2A4000B5D17 /* MyTestClass.hpp in Headers */,
 				9626A797095321AC006C620D /* SpectralBlur.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -198,7 +191,6 @@
 			files = (
 				9626A79B095321AC006C620D /* BiduleSDK.cpp in Sources */,
 				9626A79C095321AC006C620D /* SpectralBlur.cpp in Sources */,
-				B28DAC9729A2D2A4000B5D17 /* MyTestClass.cpp in Sources */,
 				B28DAC9C29A2DAC9000B5D17 /* OnePole.cpp in Sources */,
 				B20EA70F28133216007A3D88 /* OnePole.h in Sources */,
 				9626A79D095321AC006C620D /* SDKExampleMain.cpp in Sources */,
